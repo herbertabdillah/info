@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/info/precache-manifest.beb7a6fef75f71f1732e057e2589789a.js"
+  "https://herbertabdillah.github.io/info/precache-manifest.a674476d0322af9c7bcd366c81df4908.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/info/index.html", {
+workbox.routing.registerNavigationRoute("https://herbertabdillah.github.io/info/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
